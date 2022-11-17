@@ -1,0 +1,94 @@
+/* Supprimer la marge présente par défault sur les pages HTML */
+* { 
+    margin: 0;
+    padding: 0;
+  }
+/* Barre de navigation (Toutes les pages)*/
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: white;
+}
+/* Page accueil*/
+.presentation {
+    display: flex;
+    
+    background-color: #336699;
+  }
+  .presentation p {
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 15%;
+  }
+ 
+  .pres_Block{
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin:1%;
+    padding: 2%;
+    justify-content:space-between;
+  }
+  .pres_Row{
+background-color: #FBFBFE;
+color:#336699;
+padding: 10px 10px;
+
+}
+.pres_Row button{
+    border-radius: 12px;
+    padding: 16px 16px;
+    margin: 10px;
+    background-color: #FFCA4A;
+    color: white
+}
+#blue{
+    color:#336699; 
+}
+.temoi{
+    display:flex;
+    align-items: stretch;
+    flex-direction: column;
+    color:white;
+    padding: 4%;
+    justify-content:space-between;
+    background-color: #FFA000;
+}
+.temoi_vid{
+    flex-direction:column;
+}
+/* Footer (Toutes les pages)*/
+.foot{
+    background-color: #313131;
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+    color:white;
+    padding: 4%;
+    justify-content:space-between;  
+}
+.foot_column{
+    flex-direction: column;
+}
+.foot_column ul{
+    list-style-type: none;
+}

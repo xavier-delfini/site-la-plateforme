@@ -1,0 +1,100 @@
+body {
+background-color:rgb(216, 215, 215);
+
+
+
+}
+
+
+
+
+
+
+
+
+header{
+    
+    background-image: url('https://itexpert.fr/content/images/2020/08/5crMfTj.gif');
+    background-size:cover;
+    color: rgb(255, 255, 255);
+    border-radius:10px;
+    border-style:ridge;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+.pre{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(52, 140, 241);
+    border-radius:10px;
+    border-style:ridge;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+
+.texte{
+    width: 30%;
+    color: blanchedalmond;
+}
+
+.présent{
+display:flex;
+justify-content:center ;
+justify-content: space-around;
+margin:0.5cm;
+justify-content: space-evenly;
+font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+
+.présenteun {
+width: 20%;
+
+justify-content:center;
+background-color:rgb(20, 176, 238);
+border-radius:10px;
+}
+
+.prénsentedeux{
+    width: 20%;
+
+    justify-content:center;
+    background-color:rgb(20, 176, 238);
+    border-radius:10px;
+}
+
+.présntetrois{
+    width: 20%;
+
+    justify-content:center;
+    background-color:rgb(20, 176, 238);
+    border-radius:10px;
+
+
+
+}
+
+.ouini{
+    display: flex;
+    justify-content:center;
+    font-family:Arial, Helvetica, sans-serif ;
+
+
+}
+
+.fin{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+    margin:0.5cm;
+    justify-content: space-evenly;
+    background:purple;
+    border-radius:10px;
+    border-style:ridge;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
