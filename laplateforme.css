@@ -1,4 +1,4 @@
-/* Supprimer la marge présente par défault sur les pages HTML */
+/* Supprime la marge présente par défault sur les pages HTML */
 * { 
     margin: 0;
     padding: 0;
@@ -27,12 +27,13 @@
 .nav li a:hover {
     background-color: white;
 }
-/* Page accueil*/
+/* Page accueil */
 .presentation {
     display: flex;
     
     background-color: #336699;
   }
+
   .presentation p {
     color: white;
     font-size: larger;
@@ -92,3 +93,59 @@ padding: 10px 10px;
 .foot_column ul{
     list-style-type: none;
 }
+
+.AWS_block1{
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: black;
+    color: white;
+  }
+  .AWS_block1 h1, .AWS_block1 p{
+    padding: 5%;
+  }
+  .AWS_block1 button{
+    padding: 0.5%;
+    margin-left: 5%;
+    background-color: #E17B32;
+    color: white;
+  }
+
+  .AWS_block2{
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  .AWS_block2  h1, .AWS_block2  p {
+    padding: 2%;
+
+  }
+  .AWS_block2 ul{
+    padding:0% 6% 0%;
+  }
+  .AWS_block3{
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #F2F2F2;
+    padding: 1% 10% 1% 10%;
+  }
+  .AWS_block3  h2, .AWS_block3  p {
+    padding: 1% 10%;
+
+  }
+  #cloud{
+    background-color: #E17B32;
+    padding: 3% 20% ;
+  }
+  .AWS_block4{
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #F2F2F2;
+    padding: 1% 10% 1% 10%;
+  }
