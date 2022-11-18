@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact la plateforme</title>
-    <link href="laplateforme.css" rel="stylesheet">
-</head>
-<body>
-    <h1>"Vous souhaitez candidater pour une formation ou tout simplement avoir des informations ? Utilisez le formulaire pour prendre contact avec nous."</h1>
-</body>
-</html><nav>
-    <ul>
-        
-        <div class="formulaire">
-            
-            <div class="formulaire-formation">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact la plateforme</title>
+        <link href="laplateforme.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <ul>
+                    <li><a href="accueil.html"><img src="Plateforme_Logo.png" width="110" height="20"/></a></li>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="plateforme-start.html">LaPlateforme Start</a></li>
+                    <li><a href="aws-restart.html">AWS-Start</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div id="blue">
+                <center><h1>Vous souhaitez candidater pour une formation ou tout simplement avoir des informations ? Utilisez le formulaire pour prendre contact avec nous.</h1></center>   
+                <div id="formu">
+                    <div class="form_block1">
+                        <div>
+                            <p>Indiquez la formation qui vous interesse</p>
+                            <select name="formation">
+                                <option>Coding school</option>
+                                <option>Ai School</option>
+                                <option>Security School</option>
+                                <option>Executive Education</option>
+                                <option>AWS re/start</option>
+                                <option>Innovation Lab</option>
+                            </select></br>
+                            <label>prenom</label>
+                            <input type="text" name="prenom"></br>
+                            <label>adress</label>
+                            <input type="text" name="adress"></br>
+                            <label>code postal</label>
+                            <input type="text" name="codepostal"></br>
+                        </div> 
+                        <div>
+                            <p>Souhaitez-vous passer un entretien préalable</p>
+                            <select name="entretien" >
+                                <option>Oui,je souhaite passer un entretien avec un membre de l'équipe pour avoir de plus amples informations</option>
+                                <option>Non,je souhaite candidater et passer le test d'entrée sans passer d'entretien préalable</option>
+                            </select></br>
+                            <label>Nom</label>
+                            <input type="text" name="Nom">
+                            </br>
+                            <label>telephone</label>
+                            <input type="text" name="telephone"></br>
+                            <label>ville</label>
+                            <input type="text" name="ville"> 
+                        </div>
+                    </div>
+                    <label for="message">votre message</label>
+                    <textarea name="message" id="messageinput" cols="38" rows="10"></textarea>
 
-                <p>Indiquez la formation qui vous interesse</p>
-                <select name="formation" id="formation">
-                    <option>Coding school</option>
-                    <option>Ai School</option>
-                    <option>Security School</option>
-                    <option>Executive Education</option>
-                    <option>AWS re/start</option>
-                    <option>Innovation Lab</option>
-                </select>
-                
-            </div>
-            
-            <div class="formulaire-entretien">
-                <p>Souhaitez-vous passer un entretien préalable</p>
-                <select name="formation" id="sexe">
-                    <option>Oui,je souhaite passer un entretien avec un membre de l'équipe pour avoir de plus amples informations</option>
-                    <option>Non,je souhaite candidater et passer le test d'entrée sans passer d'entretien préalable</option>
-                    
-                </select>
-            </div>
-        </div>
-    <div class="formulaire">
-         <div class="prenom">
-                <label>prenom</label>
-                <input type="text" name="prenom" id="prenominput">
-            </div>
-            
-         <div class="nom">
-                <label>Nom</label>
-                <input type="text" name="Nom" id="Nominput">
+                    <button type="submit">envoyer</button>
                 </div>
             </div>
-
-<div class="formulaire">
-    <div class="ville">
-        <label>ville</label>
-        <input type="text" name="ville" id="villeinput"> 
-    </div>
-    
-    <div class="telephone">
-        <label>telephone</label>
-        <input type="text" name="telephone"id="telephoneinput"> 
-    </div>
-</div>
-
-<div class="formulaire">
-    <div class="adress">
-        <label>adress</label>
-        <input type="text" name="adress" id="adressinput"> 
-    </div>
-
-    <div class="formulaire">
-        <div class="code postal">
-            <label>code postal</label>
-            <input type="text" name="codepostal" id="codepostalinput"> 
-        </div>
-</div>
-
-<div class="formulaire">
-<div class="message">
-<label for="message">votre message</label>
-<textarea name="message" id="messageinput" cols="38" rows="10">votre message</textarea>
-</div>
-
-<div class="formulaire">
-<button type="submit">envoyer</button>
-</div>
-        
-
-        
-
-
-        
+        </main>
+        <footer>
+            <div class="foot">
+                <div class="foot_column">
+                    <ul>
+                        <strong>La Plateforme</strong>
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                        <li><a href="news.html">Actualités</a></li> 
+                    </ul>
+                </div>
+                <div class="foot_column">
+                    <ul>
+                        <strong>Les Formations</strong>
+                        <li><a href="plateforme-start.html">Laplateforme/Start</a></li>
+                        <li><a href="aws-restart.html">AWS-Restart</a></li>
+                    </ul>
+                </div>
+                <div class="foot_column">
+                    <strong>Informations</strong></br>
+                    8 rue d’hozier, 13002 Marseille
+                    </br>
+                    Tel : 04.84.89.43.69</br>
+                    <button type="button">CONTACT</button>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
 
         
               

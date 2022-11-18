@@ -194,3 +194,31 @@ color: white;
 background-color: black;
 padding: 2% 3%; 
 }
+/* Qui sommes nous */
+.qsn_block1,.qsn_block2,.qsn_block3{
+  display:flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content:space-between;
+  padding:4%;
+}
+
+/* contact */
+#blue{
+  color: white;
+  background-color: #88C1D0;
+}
+#formu{
+background-color: white;
+ color: black;
+ margin: 5% 10%;
+}
+.form_block1{
+  display:flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 4%;
+}
+
+/* news */
